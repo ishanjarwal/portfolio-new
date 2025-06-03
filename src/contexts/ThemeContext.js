@@ -13,7 +13,8 @@ const ThemeProvider = ({ children }) => {
       setTheme(savedTheme);
       document.documentElement.classList.add(savedTheme);
     } else {
-      document.documentElement.classList.add("light");
+      setTheme("dark");
+      document.documentElement.classList.add("dark");
     }
   }, []);
 
