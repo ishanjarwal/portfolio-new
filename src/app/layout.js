@@ -100,7 +100,7 @@ export default function RootLayout({ children }) {
               <Footer />
             </div>
             <div className="relative max-w-[1600px] w-full mx-auto xl:py-12 xl:pb-12 pb-24 h-[min(100vh, 500px)] xl:p-12 p-4  flex justify-between items-start xl:space-x-4 xl:space-y-0 space-y-4 xl:flex-row flex-col">
-              <div className="rounded-3xl flex flex-col border-2 border-border dark:border-dark-border xl:h-full w-full bg-white dark:bg-black/75  xl:flex-1 p-8 xl:max-w-80 m-0">
+              <div className="xl:rounded-3xl flex flex-col border-2 border-border dark:border-dark-border xl:h-full w-full bg-white dark:bg-black/75  xl:flex-1 p-8 xl:max-w-80 m-0">
                 <div className="flex justify-between items-start space-x-4">
                   <div className="aspect-square w-24 rounded-xl bg-black dark:bg-black overflow-hidden">
                     <img
@@ -191,7 +191,7 @@ export default function RootLayout({ children }) {
               </div>
               <div
                 id="pages"
-                className="relative rounded-3xl border-2 border-border  dark:border-dark-border xl:h-full w-full bg-background dark:bg-black/75  xl:flex-1 xl:pt-20 overflow-hidden"
+                className="relative xl:rounded-3xl border-2 border-border  dark:border-dark-border xl:h-full w-full bg-background dark:bg-black/75  xl:flex-1 xl:pt-20 overflow-hidden"
               >
                 <div className="xl:block hidden absolute top-0 right-0">
                   <Header />
