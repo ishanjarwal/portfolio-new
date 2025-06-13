@@ -1,6 +1,12 @@
 import { skills } from "@/constants/constants";
 import React from "react";
 
+export const metadata = {
+  title: "Skills | Ishan Jarwal",
+  description:
+    "A comprehensive overview of Ishan Jarwal’s technical skills, tools, and technologies in full stack development. Specializing in TypeScript, ExpressJS, NodeJS, NextJS, React, MongoDB and more.",
+};
+
 const Skills = () => {
   return (
     <div>

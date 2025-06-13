@@ -11,6 +11,12 @@ import { IoIosArrowDown } from "react-icons/io";
 import axios from "axios";
 import { FaCheck } from "react-icons/fa";
 
+export const metadata = {
+  title: "Connect with me",
+  description:
+    "Get in touch with Ishan Jarwal for hiring, collaborations, or inquiries | Email : ishucodes@gmail.com | Contact : +91 9116080979",
+};
+
 const Contact = () => {
   const options = [
     { id: 1, option: "Discuss a Project" },

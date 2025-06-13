@@ -11,6 +11,12 @@ import { register } from "swiper/element/bundle";
 import Link from "next/link";
 register();
 
+export const metadata = {
+  title: "Projects | Ishan Jarwal",
+  description:
+    "Explore featured full stack projects by Ishan Jarwal, showcasing skills in TypeScript, NextJS, React, ExpressJS, Node.js, and more.",
+};
+
 const Projects = () => {
   const router = useRouter();
   const [data, setData] = useState(null);

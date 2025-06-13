@@ -65,10 +65,7 @@ const About = () => {
               send me a message
             </Link>
             ,&nbsp;
-            <a
-              href="mailto:ishan.professional01@gmail.com"
-              className="text-pri underline"
-            >
+            <a href="mailto:ishucodes@gmail.com" className="text-pri underline">
               mail me
             </a>
             &nbsp;or even&nbsp;

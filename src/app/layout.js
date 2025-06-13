@@ -29,31 +29,29 @@ export default function RootLayout({ children }) {
         {/* Basic Meta Tags */}
 
         {/* SEO Meta Tags */}
-        <title>
-          Ishan Jarwal | Freelance Full Stack Web Developer | Available for Hire
-        </title>
+        <title>Ishan Jarwal | Full Stack Developer | Available for Hire</title>
         <meta
           name="description"
-          content="Welcome to Ishan's portfolio. A freelance web developer specializing in creating modern, responsive, and high-performance websites. "
+          content="Welcome to Ishan's portfolio. A freelance full stack developer specializing in creating modern, responsive, and high-performance websites. My skillset includes Typescript, NextJS, ExpressJS, MongoDB, ReactJS, NodeJS, Tailwind and much more."
         />
         <meta
           name="keywords"
-          content="MERN Stack developer, Freelance Web Developer, Web Development, Frontend Developer, Backend Developer, Full Stack Developer, Responsive Design, Portfolio, Ishan Jarwal"
+          content="Full Stack Developer, MERN Stack developer, Freelance Web Developer, Web Development, Frontend Developer, Backend Developer, Responsive Design, Portfolio, Ishan Jarwal"
         />
         <meta name="author" content="Ishan Jarwal" />
 
         {/* Open Graph Meta Tags (for social media sharing) */}
         <meta
           property="og:title"
-          content="Ishan Jarwal | Freelance Full Stack Web Developer"
+          content="Ishan Jarwal | Full Stack Web Developer"
         />
         <meta
           property="og:description"
-          content="Welcome to Ishan's portfolio. A freelance web developer specializing in creating modern, responsive, and high-performance websites."
+          content="Welcome to Ishan's portfolio. A freelance full stack developer specializing in creating modern, responsive, and high-performance websites. My skillset includes Typescript, NextJS, ExpressJS, MongoDB, ReactJS, NodeJS, Tailwind and much more."
         />
         <meta
           property="og:image"
-          content="https://jarwal.vercel.app/profile.png"
+          content="https://jarwal.vercel.app/profile.png?v=1"
         />
         <meta property="og:url" content="https://jarwal.vercel.app" />
         <meta property="og:type" content="website" />
@@ -62,15 +60,15 @@ export default function RootLayout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Ishan Jarwal | Freelance Full Stack Web Developer"
+          content="Ishan Jarwal | Full Stack Developer"
         />
         <meta
           name="twitter:description"
-          content="Welcome to Ishan's portfolio. A freelance web developer specializing in creating modern, responsive, and high-performance websites."
+          content="Welcome to Ishan's portfolio. A freelance full stack developer specializing in creating modern, responsive, and high-performance websites. My skillset includes Typescript, NextJS, ExpressJS, MongoDB, ReactJS, NodeJS, Tailwind and much more."
         />
         <meta
           name="twitter:image"
-          content="https://jarwal.vercel.app/profile.png"
+          content="https://jarwal.vercel.app/profile.png?v=1"
         />
 
         {/* Canonical Link */}
@@ -79,7 +77,7 @@ export default function RootLayout({ children }) {
         {/* Favicon */}
         <link
           rel="icon"
-          href="http://localhost:3000/favicon.ico"
+          href="http://localhost:3000/favicon.ico?v=1"
           type="image/x-icon"
         />
       </head>
@@ -147,15 +145,13 @@ export default function RootLayout({ children }) {
                     <span className="text-sm">+91 9116080979</span>
                   </a>
                   <a
-                    href="mailto:ishan.professional01@gmail.com"
+                    href="mailto:ishucodes@gmail.com"
                     className="shine flex justify-start items-start space-x-4 text-text dark:text-dark-text mt-2"
                   >
                     <span className="text-xl">
                       <IoMailOutline />
                     </span>
-                    <span className="text-sm">
-                      ishan.professional01@gmail.com
-                    </span>
+                    <span className="text-sm">ishucodes@gmail.com</span>
                   </a>
                 </div>
                 <div className="mt-8">
@@ -169,7 +165,7 @@ export default function RootLayout({ children }) {
                 </div>
                 <div className="mt-8 flex justify-between space-x-2">
                   <a
-                    href={"mailto:ishan.professional01@gmail.com"}
+                    href={"mailto:ishucodes@gmail.com"}
                     className="flex justify-center items-center space-x-2 w-full py-3 bg-pri text-black rounded-lg self-baseline outline-pri outline outline-1"
                   >
                     <span className="text-lg">
