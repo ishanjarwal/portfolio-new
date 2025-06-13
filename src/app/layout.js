@@ -70,6 +70,11 @@ export default function RootLayout({ children }) {
           name="twitter:image"
           content="https://jarwal.vercel.app/profile.png?v=1"
         />
+        {/* google site verification */}
+        <meta
+          name="google-site-verification"
+          content="_pqEYDjY9aRgoiJyLcCY1yU_vlJJgzERlbkGpheKO6I"
+        />
 
         {/* Canonical Link */}
         <link rel="canonical" href="https://jarwal.vercel.app" />
