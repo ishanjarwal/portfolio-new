@@ -127,12 +127,13 @@ export default function RootLayout({ children }) {
                       Bio
                     </h3>
                     <p className="text-text dark:text-dark-text text-sm">
-                      Teen full-stack developer | Passionate about tech | 🚀
-                      Tech Enthusiast 💻 | building{" "}
+                      Full-stack developer | Passionate about tech. I love
+                      turning ideas into powerful and user-friendly applications
+                      | 🚀 building{" "}
                       <a
                         href="https://docuworkspace.vercel.app"
                         target="_blank"
-                        className="text-pri"
+                        className="text-foreground font-bold underline"
                       >
                         docuworkspace.vercel.app
                       </a>
